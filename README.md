@@ -33,34 +33,52 @@ Antes de começar, certifique-se de ter instalado:
 ## 💡 Exemplos de Uso
 
 ### Criar um usuário
-
-{ "nome": "João Silva",
-    "email": "joao@email.com",
-    "perfil": {
-      "telefone": "99999999999",
-      "dataNascimento": "1995-12-14"
-    }
-  }
+{
+  "nome": "João Silva",
+  "email": "joao@exemplo.com",
+  "perfil": {
+    "telefone": "21999990000",
+    "dataNascimento": "1990-05-15"
+  }
+}
 
 ### Criar um artista
-
-{   
-    "id": 1    
-    "nome": "The Beatles",
-    "nacionalidade": "XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX"
-  }
+{
+  "nome": "The Beatles",
+  "nacionalidade": "Reino Unido"
+}
 
 ### Criar uma música
-
 {
-    "titulo": "Hey Jude",
-    "minutos": 7.0,
-    "genero": "ROCK",
-    "artistas": [
-      {"id": 1}
-    ]
-  }
+  "titulo": "Hey Jude",
+  "minutos": 7,
+  "genero": "ROCK",
+  "artistas": [
+    {
+      "id": 1
+    }
+  ]
+}
 
-## 👥 Autor
+## Criar uma playlist
+{
+  "nome": "Minhas Favoritas",
+  "descricao": "Uma playlist com meus hits preferidos",
+  "musicas": [
+    {
+      "id": 1
+    },
+    {
+      "id": 2
+    }
+  ],
+  "usuario": {
+    "id": 1
+  }
+}
+
+## Autor
 
 - Bernardo Serra Santos
+- Progeto da Disciplina: API
+- Residência em TIC Software 2025.2
