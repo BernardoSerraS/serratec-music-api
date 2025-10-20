@@ -12,6 +12,8 @@ public class Usuario {
 	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private Long id;
 
+	
+	@Column(name= "nome")
 	@NotBlank
 	@Size(max = 100)
 	@Schema(example = "João Silva")
